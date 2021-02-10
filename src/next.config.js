@@ -7,7 +7,7 @@ const envConfig = require(`./next.${buildEnv}.config`)
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-
+ 
 module.exports = withCSS(withSass({
   exportPathMap: function (defaultPathMap) {
     return {
