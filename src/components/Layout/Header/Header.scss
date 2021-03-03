@@ -16,7 +16,7 @@
   }
 
   .social{    
-    width: 500px;
+    width: 400px;
     display: flex;
     justify-content: space-around;
     align-items: center;    
@@ -27,10 +27,10 @@
     }      
 
     .fa {      
-      padding: 10px;
-      font-size: 20px;
-      width: 40px;      
-      height: 40px;
+      padding: 3px;
+      font-size: 12px;
+      width: 20px;      
+      height: 20px;
       text-align: center;
       text-decoration: none; 
     }
@@ -187,6 +187,12 @@
       padding: var(--header-padding-mobile);
       font-size: var(--text-size-fineprint);
 
+      .social{
+        position: absolute;
+        right: 50px;
+        margin-left: auto;
+        margin-right: 50px;
+      }
       // Left Drawer
       .right-icons {
         position: absolute;
@@ -264,6 +270,8 @@
       .menu-icon-container {
         display: none;
       }
+
+
 
       .search {
         width: 600px;
