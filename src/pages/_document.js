@@ -17,6 +17,7 @@ export default class MyDocument extends Document {
     return (
       <html lang="en">
         <Head>
+          <script src={`${assetPrefix}/static-internal/append-chat.js?rand=${Math.random()}`} />          
           <script src={`${assetPrefix}/static-internal/ie-11-polyfill.js`} />
           <script src={`${assetPrefix}/static-internal/fetch.polyfill.js?rand=${Math.random()}`} />
           <script src={`${assetPrefix}/static-internal/browser-compatibility-check.js?rand=${Math.random()}`} />
